@@ -1,0 +1,6 @@
+tmp
+doc
+log
+.vagrant
+*.log
+
