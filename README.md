@@ -180,7 +180,7 @@ Below code goes in /etc/nginx/sites-available/dispatch
 3. In this directory, run `vagrant up`
 4. To start your dev server, run `vagrant ssh`, and then the following commands inside the VM:
 
-    cd /beacon
-    RAILS_ENV=development foreman start
+        cd /beacon
+        RAILS_ENV=development foreman start
 
 5. Visit `http://localhost:5000` in your browser to check if the site is working.
